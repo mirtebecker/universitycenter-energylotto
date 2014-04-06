@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: EdmondsansBold;
+    src: url('../fonts/Edmondsans-Bold.otf');
+    font-weight:700;
+}
+
+body {
+	overflow: hidden;
+}
+
+#logo{
+	width: 100%;
+	margin-top: 230px;
+	text-align: center;
+}
+
+.daysleft, #lotto{
+	width: 225px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	padding: 5px;
+
+	background-color: #c2f421;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	font-family: EdmondsansBold;
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#swipe{
+	position: absolute;
+	width: 370px;
+	padding: 10px;
+	bottom: 20px;
+	right: 50px;
+
+	background-color: #f3be1f;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+
+	font-family: EdmondsansBold;
+	font-weight: 700;
+	font-size: 18px;
+	text-align: center;
+}
+
+#swipe:before{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+	left: 385px;
+	top: 10px;
+	border: 10px solid;
+	border-color: #f3be1f transparent transparent #f3be1f;
+}
+
+#swiped {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.tips {
+	font-family: EdmondsansBold;
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+#lotto {
+	display: none;
+	width: 300px;
+	margin-top: 50px;
+}
+
+#number {
+	display: none;
+	width: 120px;
+	margin: 0 auto;
+}
+
+.digit {
+	color: #fff;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px; 
+	background: #000;
+	font-size: 40px;
+	text-align: center;
+	line-height: 1.5;
+	float: left;
+	margin: 0;
+	margin-bottom: 20px;
+}
+
+#suite {
+	display: none;
+	clear: both;
+	font-family: EdmondsansBold;
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 15px;
+}
+
+

@@ -1,0 +1,13 @@
+{ "name"          :"energy-lotto",
+	"version"     :"0.0.1",
+	"description" :"",
+	"author"      :"Fei Liu and Mirte Becker",
+	"main"        :".server.js",
+	"dependencies":{
+		"serialport":"*",
+		"socket.io" :"*"
+	},
+	"engines"     :{
+		"node":"0.6"
+	}
+}
